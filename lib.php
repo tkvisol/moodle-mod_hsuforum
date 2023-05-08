@@ -35,6 +35,8 @@ define('HSUFORUM_CHOOSESUBSCRIBE', 0);
 define('HSUFORUM_FORCESUBSCRIBE', 1);
 define('HSUFORUM_INITIALSUBSCRIBE', 2);
 define('HSUFORUM_DISALLOWSUBSCRIBE',3);
+/* 24.10.22 Quickfix für Fehler in der Abo Verwaltung des Open Forums, Hubert Anliker https://redmine.visol.ch/issues/33847 */
+define('FORUM_DISALLOWSUBSCRIBE',3);
 
 /**
  * HSUFORUM_TRACKING_OFF - Tracking is not available for this forum.
